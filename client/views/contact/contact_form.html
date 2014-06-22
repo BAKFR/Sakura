@@ -1,0 +1,12 @@
+<template name="contact_form">
+	<legend>{{ legend }}</legend>
+
+	<label for="form_name" >Nom:</label>
+	<input id="form_name" type="text" name="name" autofocus="autofocus" value="{{name}}" /><br />
+
+	<label for="form_phone">Téléphone:</label>
+	<input id="form_phone" type="tel" name="phone" value=""{{phone}}" /><br />
+
+	<label for="form_email" >Email:</label>
+	<input id="form_email" type="email" name="email" value="{{email}}" /><br />
+</template>

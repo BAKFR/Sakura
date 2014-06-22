@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "bootstrap-cosmo": {}
+    },
+    "packages": {
+      "bootstrap-cosmo": {
+        "git": "https://github.com/and-fri/meteor-bootstrap-cosmo.git",
+        "tag": "v0.0.2",
+        "commit": "b4b5a494638ccd1a19f24f7bc45763e5ce4bf990"
+      }
+    }
+  }
+}

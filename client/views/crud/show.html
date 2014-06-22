@@ -1,0 +1,11 @@
+<template name="show" >
+  <h1>Détails du contact <!-- TODO: change the title ! --></h1>
+  <ol class="breadcrumb" >
+	<li><a href="/">Home</a></li>
+	<li><a href="{{pathFor 'list'}}">{{ item_show_type }}</a></li>
+	<li class="active" >{{name}} <!-- TODO: select a dynamic name --></li>
+  </ol>
+  <div class="well" >
+	  {{{ show_item }}}
+  </div>
+</template>

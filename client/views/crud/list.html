@@ -1,0 +1,21 @@
+<template name="list" >
+	<h1>Liste de contact
+		<!-- TODO spécifique. -->
+	</h1>
+	<ol class="breadcrumb" >
+		<li><a href="/">Home</a></li>
+		<li class="active">{{ item_show_type }}</li>
+	</ol>
+	{{{ display_alerts }}}
+	<a class="btn btn-success" role="button" href="{{pathFor 'create'}}">
+		<span class="glyphicon glyphicon-plus" ></span> Ajouter</a>
+
+	<table class="table">
+		{{{ show_item_head }}}
+		<tbody>
+		{{#each items }}
+			{{{ show_item_row ../item_type }}}
+		{{/each }}
+		</tbody>
+	</table>
+</template>

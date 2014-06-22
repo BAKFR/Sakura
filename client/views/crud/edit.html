@@ -1,0 +1,15 @@
+<template name="edit" >
+	<h1>Éditer le contact</h1>
+	<ol class="breadcrumb" >
+		<li><a href="/">Home</a></li>
+		<li><a href="{{pathFor 'list'}}" >{{ item_show_type }}</a></li>
+		<li class="active" >Éditer</li>
+	</ol>
+
+	<form>
+		<fieldset class="item-form">
+			{{{ show_item_form }}}
+			<input type="submit" class="btn btn-default" value="Modifier" />
+		</fieldset>
+	</form>
+</template>

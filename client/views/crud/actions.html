@@ -1,0 +1,11 @@
+<template name="CRUD_actions" >
+	<div class="CRUD-actions" >
+		<a class="btn btn-default" href="{{pathFor 'edit'}}" >
+			<span class="glyphicon glyphicon-pencil" ></span> <span class="" >Éditer</span>
+		</a>
+		<a class="btn btn-danger delete-link" href="{{pathFor 'delete'}}" >
+			<span class="glyphicon glyphicon-trash" ></span> <span>Supprimer</span>
+			<!-- TODO mettre des classes large-screen only sur les textes des bouttons. -->
+		</a>
+	</div>
+</template>
